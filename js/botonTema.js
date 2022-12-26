@@ -15,6 +15,6 @@ function cambiar()
     }
 
     const tema = document.getElementById("tema");
-    tema.buffer = 'css/temaOscuro.css' == tema.buffer ? 'css/temaClaro' : 'css/temaOscuro.css';
+    tema.buffer = 'css/temaClaro.css' == tema.buffer ? 'css/temaOscuro.css' : 'css/temaClaro.css';
     tema.href = tema.buffer;
 }
