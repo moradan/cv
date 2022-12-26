@@ -1,0 +1,23 @@
+.color-normal {
+    font-weight: normal;
+    color: darkslategrey;
+    background-color: wheat;
+}
+
+.color-enfasis {
+    font-weight: bold;
+    color: white;
+    background-color: black;
+}
+
+.color-inactivo {
+    font-weight: normal;
+    color: darkgray;
+    background-color: wheat;
+}
+
+.color-activo {
+    font-weight: bold;
+    color:black;
+    background-color:white;
+}

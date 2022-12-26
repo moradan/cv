@@ -13,4 +13,8 @@ function cambiar()
             boton.className = clase.replace("block", "none");
         }
     }
+
+    const tema = document.getElementById("tema");
+    tema.buffer = 'css/temaOscuro.css' == tema.buffer ? 'css/temaClaro' : 'css/temaOscuro.css';
+    tema.href = tema.buffer;
 }

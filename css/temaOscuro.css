@@ -1,0 +1,23 @@
+.color-normal {
+    font-weight: normal;
+    color: wheat;
+    background-color: blue;
+}
+
+.color-enfasis {
+    font-weight: bold;
+    color: white;
+    background-color: cornflowerblue;
+}
+
+.color-inactivo {
+    font-weight: normal;
+    color: lightgray;
+    background-color: blue;
+}
+
+.color-activo {
+    font-weight: bold;
+    color:white;
+    background-color:darkblue;
+}
