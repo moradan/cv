@@ -15,9 +15,9 @@
 </head>
 
 <body class="m-2 bg-primary text-white" style="height:500px">
-    <header class="container">
+    <header>
         <div class="row">
-            <div class="col-1">
+            <div class="col-2">
                 <img src="/imagenes/Foto de perfil RG.jpg" alt="foto de perfil" class="img-fluid">
             </div>
             <div class="col">
@@ -26,34 +26,23 @@
         </div>
     </header>
 
-    <div class="container">
-        <nav class="nav nav-pills h2 m-3" data-bs-theme="dark">
-            <a class="nav-link
-            bg-primary-subtle
-            border border-info rounded-3 
-            active" aria-current="page" href="#">
-                Presentación
-            </a>
-            <a href="#" class="nav-link
-            bg-primary-subtle
-            border border-info rounded-3">
-                Contacto
-            </a>
-            <a href="#" class="nav-link
-            bg-primary-subtle
-            border border-info rounded-3">
-                Experiencia
-            </a>
-            <a href="#" class="nav-link
-            bg-primary-subtle
-            border border-info rounded-3">
-                Habilidades
-            </a>
-        </nav>
-    </div>
+    <nav class="nav nav-pills h2" data-bs-theme="dark">
+        <a class="nav-link active" data-bs-toggle="pill" href="#presentacion">
+            Presentación
+        </a>
+        <a class="nav-link" data-bs-toggle="pill" href="#contacto">
+            Contacto
+        </a>
+        <a class="nav-link" data-bs-toggle="pill" href="#experiencia">
+            Experiencia
+        </a>
+        <a class="nav-link" data-bs-toggle="pill" href="#habilidades">
+            Habilidades
+        </a>
+    </nav>
 
-    <div id="pizarra">
-        <section class="container visible" id="presentacion">
+    <div class="tab-content">
+        <div id="presentacion" class="tab-pane active">
             <h3>Hola, soy Rodrigo</h3>
             <p class="col-8">
                 Soy Rodrigo, téctino en el ectrónica recibido; programador, aún no certificado; 
@@ -63,19 +52,19 @@
                 Estoy buscando mis próximos desafíos en el campo del desarrollo web y no puedo esperar para 
                 empezar a trabajar en tu proyecto web.
             </p>
-        </section>
+        </div>
 
-        <section class="container invisible" id="contacto">
+        <div id="contacto" class="tab-pane">
             <h3>Contacto</h3>
             <ul>
                 <li>rodrigo-gimenez@outlook.com</li>
                 <li>+5492944921198</li>
-                <li><a href="https://api.whatsapp.com/send?phone=5491132905773">Escribime por Whatsapp</a></li>
+                <li><a class="text-white" href="https://api.whatsapp.com/send?phone=5491132905773">Escribime por Whatsapp</a></li>
                 <li>Virrey Loreto 129, Burzaco CP 1852, Buenos Aires, Argentina.</li>
             </ul>
-        </section>
+        </div>
 
-        <section class="container invisible" id="experiencia">
+        <div id="experiencia" class="tab-pane">
             <h3>Experiencia</h3>
             <ul>
                 <li>La Cocina de Martina</li>
@@ -84,9 +73,9 @@
                 <li>5CA - Callcenter</li>
                 <li>Mas...</li>
             </ul>
-        </section>
+        </div>
 
-        <section class="container invisible" id="habilidades">
+        <div id="habilidades" class="tab-pane">
             <h3>Habilidades</h3>
             <ul>
                 <li>Autodidacta</li>
@@ -94,7 +83,7 @@
                 <li>Ingles fluido</li>
                 <li>Conocimientos basicos de Aleman, Japones, Portugues, Frances.</li>
             </ul>
-        </section>
+        </div>
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
