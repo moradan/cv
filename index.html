@@ -14,75 +14,88 @@
     <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@700&display=swap" rel="stylesheet">
 </head>
 
-<body class="m-2 bg-primary text-white" style="height:500px">
-    <header>
+<!---->
+<body class="m-5 bg-primary text-white" style="height:500px">
+    <header class="container-fluid">
         <div class="row">
-            <div class="col-2">
-                <img src="imagenes/foto-de-perfil.jpg" alt="foto de perfil" class="img-fluid">
+            <div class="col-auto">
+                <img src="imagenes/foto-de-perfil.jpg" alt="foto de perfil" class="img-fluid" width="200px" height="auto">
             </div>
             <div class="col">
-                <h1>CVRRICVLVM VITAE - RODRIGO GIMENEZ</h1>
+                <h1>CURRICULM VITAE - RODRIGO GIMENEZ</h1>
             </div>
         </div>
     </header>
 
-    <nav class="nav nav-pills h2" data-bs-theme="dark">
-        <a class="nav-link active" data-bs-toggle="pill" href="#presentacion">
-            Presentación
-        </a>
-        <a class="nav-link" data-bs-toggle="pill" href="#contacto">
-            Contacto
-        </a>
-        <a class="nav-link" data-bs-toggle="pill" href="#experiencia">
-            Experiencia
-        </a>
-        <a class="nav-link" data-bs-toggle="pill" href="#habilidades">
-            Habilidades
-        </a>
-    </nav>
+    <div class="containter-fluid mt-5">
+        <nav class="nav nav-pills navbar-expand-md h2" data-bs-theme="dark">
+            <button class="navbar-toggler" 
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#barraNavegacion">
+                Menu
+            </button>
+            <div class="collapse navbar-collapse" id="barraNavegacion">
+                <a class="nav-link active" data-bs-toggle="pill" href="#presentacion">
+                    Presentación
+                </a>
+                <a class="nav-link" data-bs-toggle="pill" href="#contacto">
+                    Contacto
+                </a>
+                <a class="nav-link" data-bs-toggle="pill" href="#experiencia">
+                    Experiencia
+                </a>
+                <a class="nav-link" data-bs-toggle="pill" href="#habilidades">
+                    Habilidades
+                </a>
+            </div>
+        </nav>
+    </div>
 
-    <div class="tab-content">
-        <div id="presentacion" class="tab-pane active">
-            <h3>Hola, soy Rodrigo</h3>
-            <p class="col-8">
-                Soy Rodrigo, téctino en el ectrónica recibido; programador, aún no certificado; 
-                la PC es una extención de mi brazo y hablo inglés fluido. 
-                Las cinecias de la tecnología informática me apasionan igual que las lenguas. 
-                Tengo experiencia amateur en programación y desarrollo web, y hablo 4 lenguas a nivel básico.
-                Estoy buscando mis próximos desafíos en el campo del desarrollo web y no puedo esperar para 
-                empezar a trabajar en tu proyecto web.
-            </p>
-        </div>
+    <div class="container-fuild mt-5">
+        <div class="tab-content">
+            <div id="presentacion" class="tab-pane active">
+                <h3>Hola, soy Rodrigo</h3>
+                <p class="col-8">
+                    Soy Rodrigo, téctino en el ectrónica recibido; programador, aún no certificado; 
+                    la PC es una extención de mi brazo y hablo inglés fluido. 
+                    Las cinecias de la tecnología informática me apasionan igual que las lenguas. 
+                    Tengo experiencia amateur en programación y desarrollo web, y hablo 4 lenguas a nivel básico.
+                    Estoy buscando mis próximos desafíos en el campo del desarrollo web y no puedo esperar para 
+                    empezar a trabajar en tu proyecto web.
+                </p>
+            </div>
 
-        <div id="contacto" class="tab-pane">
-            <h3>Contacto</h3>
-            <ul>
-                <li>rodrigo-gimenez@outlook.com</li>
-                <li>+5492944921198</li>
-                <li><a class="text-white" href="https://api.whatsapp.com/send?phone=5492944921198">Escribime por Whatsapp</a></li>
-                <li>Virrey Loreto 129, Burzaco CP 1852, Buenos Aires, Argentina.</li>
-            </ul>
-        </div>
+            <div id="contacto" class="tab-pane">
+                <h3>Contacto</h3>
+                <ul>
+                    <li>rodrigo-gimenez@outlook.com</li>
+                    <li>2944921198</li>
+                    <li><a class="text-white" href="https://api.whatsapp.com/send?phone=5492944921198">Escribime por Whatsapp</a></li>
+                    <li>Virrey Loreto 129, Burzaco CP 1852, Buenos Aires, Argentina.</li>
+                </ul>
+            </div>
 
-        <div id="experiencia" class="tab-pane">
-            <h3>Experiencia</h3>
-            <ul>
-                <li>La Cocina de Martina</li>
-                <li>Casa Humberto Lucaioli</li>
-                <li>IBM - Callcenter</li>
-                <li>5CA - Callcenter</li>
-                <li>Mas...</li>
-            </ul>
-        </div>
+            <div id="experiencia" class="tab-pane">
+                <h3>Experiencia</h3>
+                <ul>
+                    <li>La Cocina de Martina</li>
+                    <li>Casa Humberto Lucaioli</li>
+                    <li>IBM - Callcenter</li>
+                    <li>5CA - Callcenter</li>
+                    <li>Mas...</li>
+                </ul>
+            </div>
 
-        <div id="habilidades" class="tab-pane">
-            <h3>Habilidades</h3>
-            <ul>
-                <li>Autodidacta</li>
-                <li>Experiencia, no laboral, en desarrollo web y programacion en general</li>
-                <li>Ingles fluido</li>
-                <li>Conocimientos basicos de Aleman, Japones, Portugues, Frances.</li>
-            </ul>
+            <div id="habilidades" class="tab-pane">
+                <h3>Habilidades</h3>
+                <ul>
+                    <li>Autodidacta</li>
+                    <li>Experiencia, no laboral, en desarrollo web y programacion en general</li>
+                    <li>Ingles fluido</li>
+                    <li>Conocimientos basicos de Aleman, Japones, Portugues, Frances.</li>
+                </ul>
+            </div>
         </div>
     </div>
 
