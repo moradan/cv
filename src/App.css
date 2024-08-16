@@ -4,6 +4,7 @@
 
 .App-header {
   background-color: rgb(0, 47, 75);
+  background-image: radial-gradient(rgb(0, 47, 75), rgb(27, 83, 116));
   min-height: 100vh;
   display: flex;
   flex-direction: column;
