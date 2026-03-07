@@ -1,20 +1,20 @@
 import './App.css';
-import Col from 'react-bootstrap/col'
-import Row from 'react-bootstrap/row';
+import Container from 'react-bootstrap/Container'
+import Col from 'react-bootstrap/Col'
+import Row from 'react-bootstrap/Row';
 
 function App() {
   return (
-    <div className="App container-fluid">
+    <Container fluid className="contenedor">
       <Row>
-        <Col xs={6}>
+        <Col className="d-flex justify-content-center align-content-center">
           <header className="App-header">
-
             <h1 className='fw-light'>&lt;Rodrigo Gimenez&gt;</h1>
-            <span className='fw-light'>Desarrollador web</span>
+            <div className='fw-light text-center'>Desarrollador web</div>
           </header>
         </Col>
       </Row>
-    </div>
+    </Container>
   );
 }
 

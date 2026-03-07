@@ -2,14 +2,20 @@
   text-align: center;
 }
 
-.App-header {
+.contenedor {
   background-color: rgb(0, 47, 75);
-  background-image: radial-gradient(rgb(0, 47, 75), rgb(27, 83, 116));
+  background-image: radial-gradient(circle at bottom right, rgb(0, 47, 75), rgb(27, 83, 116));
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-content: center;
   justify-content: center;
+}
+
+.App-header {
   font-size: calc(10px + 2vmin);
   color: white;
+  display: block;
+  align-items: center;
+  justify-content: center;
 }
